@@ -84,7 +84,7 @@ def health_check():
 @app.route('/manifest.json', methods=['GET'])
 def get_manifest():
     manifest = {
-        "id": "yodaluca23.rotten.trailers",
+        "id": "yodaluca23.tomato.trailers",
         "name": "Rotten Tomatoes Trailers",
         "author": "yodaluca23",
         "version": "1.0.0",
